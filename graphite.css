@@ -1,0 +1,15 @@
+table{
+    width: 100%;
+    height: 150%;
+    border-spacing: 0;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+}
+td{
+    width: 50%;
+    height: 150%;
+    border-spacing: 0;
+    margin: 0;
+    padding: 0;
+}
