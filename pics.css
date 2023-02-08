@@ -1,0 +1,49 @@
+.header{
+    padding-right:10rem;
+    background-color: #EA9F0E;
+    padding-left: 3rem;
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: 3rem;
+    font-weight: normal;
+    font-family: 'Italiana', serif;
+
+}
+.first-page{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.first-image-div{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background-color: antiquewhite;
+}
+.first-img{
+    background-color: rgb(205, 180, 103);
+    padding: 4.5rem;
+    height: 90%;
+    margin: auto;
+    
+}
+.second-image-div{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background-color: beige;
+}
+
+.second-img{
+    background-color: rgb(205, 180, 103);
+    padding: 4rem;
+    height: 90%;
+    margin: auto;
+
+}
