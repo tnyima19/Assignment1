@@ -15,15 +15,16 @@ a, a:visited {
 #pics{
     position:absolute;
     height: 50%;
-    left: 17%;
+    left: 20%;
     visibility: hidden;
+    top: 30%;
     /* display: none; */
 }
 #graph{
     height: 50%;
     position: absolute;
     left: 45%;
-    top: 38%;
+    top: 62%;
     /* display: none; */
     visibility: hidden;
 }
