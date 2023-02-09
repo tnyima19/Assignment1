@@ -1,0 +1,107 @@
+.header{
+    padding-right:10rem;
+    background-color: #EA9F0E;
+    padding-left: 3rem;
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: 3rem;
+    font-weight: normal;
+    font-family: 'Italiana', serif;
+
+}
+a:visited{
+    text-decoration: none;
+
+}
+a:hover { 
+    text-decoration: none; 
+}
+a:focus { 
+    text-decoration: none;
+ }
+a:hover, a:active { 
+    text-decoration: none;
+}
+
+.home-link-div{
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-link{
+    padding: 1rem;
+    background-color: #b9340f;
+    color: white;
+}
+.first-page{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.first-image-div{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background-color: antiquewhite;
+}
+.first-img{
+    background-color: rgb(205, 180, 103);
+    padding: 4.5rem;
+    height: 90%;
+    margin: auto;
+    
+}
+.second-image-div{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background-color: beige;
+}
+
+.second-img{
+    background-color: rgb(205, 180, 103);
+    padding: 4rem;
+    height: 90%;
+    margin: auto;
+
+}
+.other-pics{
+    height: 100vh;
+
+}
+.first-table{
+   width: 100%;
+
+}
+.first-col{
+    width: 50%;
+    text-align: center;
+}
+.second-col{
+    width: 50%;
+    text-align: center;
+
+}
+.table-img{
+    width: 100%;
+}
+.nyc-green{
+    background-color: rgb(34, 102, 20);
+    padding: 3rem 6rem;
+    color: white;
+  
+}
+.green-header-box{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
