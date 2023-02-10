@@ -1,8 +1,14 @@
 .graphite-block{
-    padding-top:24rem;
+    /* padding-top:24rem; */
     padding-right: 3rem;
     text-align: center;
     width: 50%
+}
+body{
+    
+}
+table{
+    top: 30%;
 }
 img{
     position: relative;
@@ -14,17 +20,17 @@ a, a:visited {
 
 #pics{
     position:absolute;
-    height: 50%;
-    left: 20%;
+    height: 40%;
+    left: 15%;
     visibility: hidden;
-    top: 30%;
+    top: 10%;
     /* display: none; */
 }
 #graph{
-    height: 50%;
+    height: 40%;
     position: absolute;
-    left: 45%;
-    top: 62%;
+    right: 10%;
+    bottom: 10%;
     /* display: none; */
     visibility: hidden;
 }
@@ -59,6 +65,7 @@ table h2:hover{
     -webkit-transform: scale(1.2);
 }
 .graphite{
+    left: 10%;
     padding-top: 3rem;
     padding-bottom: 3rem;
     padding-right: 4rem;
