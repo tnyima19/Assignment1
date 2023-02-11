@@ -4,11 +4,21 @@
     border: 0px;
     box-sizing: border-box;
 }
-
+.homepage-link{
+    padding: 1rem 0;
+}
 .nav-bar{
+    position: relative;
     text-align: center;
 }
-a :visited{
+h3{
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color:aliceblue
+}
+a:visited{
     text-decoration: none;
 
 }
@@ -36,6 +46,9 @@ a:hover, a:active {
     right: 20%;
     top: 3%;
     position: absolute;
+}
+.syanite-para{
+    right: 20%;
 }
 p{
     position: absolute;
@@ -116,6 +129,7 @@ body{
     width: 60%;
 }
 .section-2{
+    right: 10%;
     margin-right: -12px;
     width:100%;
     height: 100vh;
@@ -137,7 +151,7 @@ img{
     height: 60%;
     float: right;
     border: 0px;
-    padding-right: 20rem;
+    right: 15%;
 }
 .image3{
     height: 60%;
