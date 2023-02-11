@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
 .header{
     padding-right:10rem;
     background-color: #EA9F0E;
@@ -9,6 +14,13 @@
     font-weight: normal;
     font-family: 'Italiana', serif;
 
+}
+h3{
+    position: relative;
+}
+.first-image-div h3{
+    padding: 2rem 2rem;
+    background-color: antiquewhite;
 }
 body{
     background-color: aliceblue;
@@ -109,7 +121,7 @@ a:hover, a:active {
 .first-img{
     background-color: #d6981c;
     padding: 4.5rem;
-    height: 90%;
+    height: 85%;
     margin: auto;
     
 }
@@ -122,10 +134,10 @@ a:hover, a:active {
 }
 
 .second-img{
+    margin-top: 5rem;
     background-color: rgb(205, 180, 103);
-    padding: 4rem;
-    height: 90%;
-    margin: auto;
+    padding: 2rem;
+    width: 70%;
 
 }
 .other-pics{
