@@ -11,6 +11,45 @@
 
 }
 
+a{
+    text-decoration: none;
+    color:rgb(24, 23, 23);
+}
+a:visited{
+    text-decoration: none;
+
+}
+a:hover { 
+    text-decoration: none; 
+}
+a:focus { 
+    text-decoration: none;
+ }
+a:hover, a:active { 
+    text-decoration: none;
+}
+table{
+    width: 100%;
+}
+.homepage-link{
+    padding: 1rem 0;
+}
+.nav-bar-row{
+    width: 100%;
+}
+.navbar-col1{
+    width: 50%;
+}
+.navbar-col2{
+    width: 50%;
+}
+.nav-bar{
+    position: relative;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
 a :visited{
     text-decoration: none;
 
@@ -24,10 +63,23 @@ a:focus {
 a:hover, a:active { 
     text-decoration: none;
 }
-
+.section-6{
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+}
+.artist-title{
+    color:#EA9F0E;
+    font-size: 3rem;
+    font-family: 'Italiana', serif;
+    font-weight: bolder;
+}
+.about-artist-para{
+    font-size: 2rem;
+}
 .home-link-div{
     text-align: center;
-    color: white;
+    color: rgb(214, 197, 179);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +87,7 @@ a:hover, a:active {
 .home-link{
     padding: 1rem;
     background-color: #b9340f;
-    color: white;
+    color: rgb(221, 215, 206);
 }
 .first-page{
     width: 100%;
@@ -53,7 +105,7 @@ a:hover, a:active {
     background-color: antiquewhite;
 }
 .first-img{
-    background-color: rgb(205, 180, 103);
+    background-color: #d6981c;
     padding: 4.5rem;
     height: 90%;
     margin: auto;
