@@ -4,11 +4,29 @@
     border: 0px;
     box-sizing: border-box;
 }
+table{
+    width: 100%;
+}
+.nav-bar-row{
+    width: 100%;
+}
+.navbar-col1{
+    text-align: center;
+    width: 50%;
+}
+.navbar-col2{
+    text-align: center;
+    width: 50%;
+}
 .homepage-link{
     padding: 1rem 0;
 }
+.picpage-link{
+    padding: 1rem 0;
+}
 .nav-bar{
-    position: relative;
+    width: 100%;
+    position: absolute;
     text-align: center;
 }
 h3{
