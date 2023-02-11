@@ -5,7 +5,10 @@
     width: 50%
 }
 body{
-    
+    background-color: aliceblue;
+}
+.info-link{
+    text-align: left;
 }
 table{
     top: 30%;
