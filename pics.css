@@ -78,9 +78,13 @@ a:hover, a:active {
     text-decoration: none;
 }
 .section-6{
+    margin-top: 30rem;
     height: 50vh;
     width: 100%;
     text-align: center;
+}
+.about-artist{
+    position: absolute;
 }
 .artist-title{
     color:#EA9F0E;
