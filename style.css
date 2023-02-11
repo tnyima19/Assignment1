@@ -1,27 +1,71 @@
 .graphite-block{
-    padding-top:24rem;
+    /* padding-top:24rem; */
     padding-right: 3rem;
     text-align: center;
     width: 50%
 }
+body{
+    
+}
+table{
+    top: 30%;
+}
+img{
+    position: relative;
+}
+a, a:visited {
+    color: inherit;
+    text-decoration: none;
+}
 
-.watercolor-block{
+#pics{
+    position:absolute;
+    height: 40%;
+    left: 15%;
+    visibility: hidden;
+    top: 10%;
+    /* display: none; */
+}
+#graph{
+    height: 40%;
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    /* display: none; */
+    visibility: hidden;
+}
+/*  
+.graphite:hover .graph{
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
+.photographs:hover .pics{
+    display: block;
+    visibility: visible;
+    opacity: 1;
+} */
+
+.photo-block{
     padding-right: 7rem;
     width: 50%;
     padding-top: 9rem;
     padding-left: 17rem;
 
 }
-.watercolor{
+.photographs{
     font-size: 3rem;
-    background-color:#E3AFAF ;
+    background-color:#EA9F0E ;
     font-family: 'Italiana', serif;
-    color: #C52FC8;
+    color: #f2eaf2;
     text-align: center;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding: 3rem 3rem;
+}
+table h2:hover{
+    -webkit-transform: scale(1.2);
 }
 .graphite{
+    left: 10%;
     padding-top: 3rem;
     padding-bottom: 3rem;
     padding-right: 4rem;
@@ -33,4 +77,5 @@
 }
 table{
     width: 100%;
+    position: absolute;
 }
