@@ -4,20 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italiana&family=Montserrat&family=Ubuntu&display=swap" rel="stylesheet">
     <title>HomePage</title>
 </head>
 <body>
+    <div class="img-store">
+    <img id="pics" src="./home-images/kidsofKathmandu.jpg" alt="kok">
+    <img id="graph" src="./home-images/IMG_0168 1.jpg" alt="graphs">
+    </div>
     <table>
-        <div>
-        <h2>Graphite</h2>
-        </div>
-        <div>
-        <h2>Watercolor</h2>
-        </div>
+        <tr>
+            <td></td>
+            <td class="graphite-block">
+            <a class="graphite-link" href="graphite.html">
+            <h2 class="graphite">Graphites</h2>
+            </a>
+            <button onclick="showGraphImage()">Show Art</button>
+            </td>
+        </tr>
+        <tr>
+            <td class="photo-block">
+                <a class="photo-link" href="">
+                <h2 class="photographs">Photographs
+                </h2>
+                </a>
+                <button onclick="showPicsImage()">Show Pic</button>
+            </td>
+            <td></td>
+        </tr>
 
     </table>
     
-
+    <script src="script.js"></script>
    
 
     

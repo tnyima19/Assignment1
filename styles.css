@@ -1,0 +1,36 @@
+.graphite-block{
+    padding-top:24rem;
+    padding-right: 3rem;
+    text-align: center;
+    width: 50%
+}
+
+.watercolor-block{
+    padding-right: 7rem;
+    width: 50%;
+    padding-top: 9rem;
+    padding-left: 17rem;
+
+}
+.watercolor{
+    font-size: 3rem;
+    background-color:#E3AFAF ;
+    font-family: 'Italiana', serif;
+    color: #C52FC8;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.graphite{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-right: 4rem;
+    font-size: 3rem;
+    background-color: lightgray;
+    width: 30%;
+    font-family: 'Italiana', serif;
+
+}
+table{
+    width: 100%;
+}
