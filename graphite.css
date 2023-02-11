@@ -4,6 +4,39 @@
     border: 0px;
     box-sizing: border-box;
 }
+
+.nav-bar{
+    text-align: center;
+}
+a :visited{
+    text-decoration: none;
+
+}
+a:hover { 
+    text-decoration: none; 
+}
+a:focus { 
+    text-decoration: none;
+ }
+a:hover, a:active { 
+    text-decoration: none;
+}
+.nav-div-homepage h3{
+    color:aliceblue;
+}
+.nav-div-homepage{
+    top: 3%;
+    left: 10%;
+    position: absolute;
+}
+.nav-div-pics h3{
+    color: aliceblue;
+}
+.nav-div-pics{
+    right: 20%;
+    top: 3%;
+    position: absolute;
+}
 p{
     position: absolute;
     color: white;
@@ -165,6 +198,24 @@ table{
     color: #C52FC8;
     font-weight: normal;
 
+}
+.section-6{
+    position: inherit;
+    text-align: center;
+   
+}
+.about-artist{
+    color: aliceblue;
+    margin: auto;
+    font-size: 5rem;
+    font-weight: normal;
+    font-family: 'Italiana', serif;
+
+}
+.about-artist-para{
+    position: inherit;
+    font-size: normal;
+    background-color: #161615;
 }
 
 
