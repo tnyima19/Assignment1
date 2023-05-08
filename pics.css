@@ -113,15 +113,14 @@ a:hover, a:active {
 }
 .first-image-div{
     width: 100%;
-    height: 100vh;
+    height: 124vh;
     align-items: center;
     text-align: center;
     background-color: antiquewhite;
 }
 .first-img{
-    background-color: #d6981c;
     padding: 4.5rem;
-    height: 85%;
+    height: 110%;
     margin: auto;
     
 }
